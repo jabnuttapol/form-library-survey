@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+html{
+    margin: 0;
+}
+
+body {
+    background-image: url(img/background.jpg);
+    background-size: cover; /* ปรับให้ภาพครอบคลุมพื้นที่ทั้งหมด */
+    background-position: center; /* จัดตำแหน่งของภาพให้อยู่ตรงกลาง */
+    background-repeat: no-repeat; /* ไม่ให้ภาพซ้ำ */
+    margin-left: 130px;
+    margin-right: 130px;
+}
+
+main{
+    background-color: rgba(72, 72, 72, 0.475);
+    border-radius: 10px;
+    padding: 0.5rem;
+    color: rgb(255, 255, 255);
+    padding: 1rem;
+}
+
+.title{
+    text-align: center;
+    color: aliceblue;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+h1{
+    margin: 0;
+    font-size: 3rem;
+}
+
+input, select{
+    display: block;
+}
+
+input[type="radio"], input[type="checkbox"]{
+    display: inline-block;
+}
+
+input[type="text"],input[type="email"],input[type="number"],select,textarea, button{
+    width: 100%;
+    border-radius: 5px;
+}
+
+textarea{
+    height: 10rem;
+    border-radius: 5px;
+}
+
+button{
+    height: 3rem;
+    cursor: pointer;
+    background-color: rgb(55, 175, 101);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+
+label{
+    padding: 0;
+}
+
+form{
+    font-size: 1.2rem;
+}
+
+.textarea{
+    margin: 0;
+}
